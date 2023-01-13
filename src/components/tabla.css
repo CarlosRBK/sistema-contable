@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.tabla_datos {
+    font-size: 18px;
+    font-weight: 450;
+    margin-top: 20px;
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+    border-radius: 10px;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 50%);
+}
+
+th {
+    color: white;
+    padding: 10px;
+    background: rgb(57, 57, 57);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}   
+
+.total {
+    width: 100%;
+}
+
+tr:hover {
+    background-color: rgb(183, 183, 183);
+}
+
+tr {
+    padding: 5px;
+    border: solid black 1px;
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+    border: solid black 1px;
+    width: 100%;    
+}
+
+

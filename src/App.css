@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container { 
+    margin: 20px;
+    min-width: 700px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.196516106442577) 0%, rgba(208,208,208,0.6306897759103641) 35%, rgba(255,255,255,0.19931722689075626) 100%);
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+
+}
+
+.App {
+    display: flex;
+    margin: 50px;
+}
